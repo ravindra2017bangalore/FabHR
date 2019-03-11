@@ -1,0 +1,169 @@
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="" align="left">
+      <tbody>
+        <tr>
+          <td>
+            <table style="font-family:helvetica,sans-serif" width="600" cellspacing="0" border="0" bgcolor="#8c98e0" align="left">
+              <tbody>
+                <tr>
+                  <td style="margin:0;padding:0">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tbody>
+                        <tr width="100%">
+                          <td style="margin:0;padding:0" width="20" valign="top">&nbsp;</td>
+                          <td style="margin:0;padding:0" valign="top">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <p> </p>
+                                  </td>
+                                </tr>
+                              </tbody>
+                              <tbody>
+                                <tr>
+                                  <td style="margin:0;padding:0">
+                                    <div style="border:0px;padding:3px 0 10px 0;width:100%;background:#f5f5f5;border-bottom:2px solid #3f51bd;border-top:2px solid #3f51bd;margin-top:10px">
+                                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                          <tr>
+                                            <td>
+                                              <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                <tbody>
+                                                  <tr>
+                                                    <td valign="middle" align="left">
+                                                      <div>
+                                                        <div> <img src="https://ci5.googleusercontent.com/proxy/ux0roUdjQOq3FxSVbqArVFURkup91XQlY5NTsH1bpEKSua6RTMAdxvVGx1kF1VINGXAKnQ=s0-d-e1-ft#http://i67.tinypic.com/8ye5j4.png" alt="FebHR" style="width:114px;height:auto;margin-left:20px" class="m_5389706155165955651CToWUd CToWUd"> </div>
+                                                      </div>
+                                                    </td>
+                                                    <td valign="top" align="right">
+                                                      <div style="display:inline-block">
+                                                        <div> <a href="http://fabhr.in/" style="color:#000000;font-size:13px;text-decoration:none;margin-top:25px;float:right" target="_blank" data-saferedirecturl="https://www.google.com/url?q=http://fabhr.in/&amp;source=gmail&amp;ust=1546086964608000&amp;usg=AFQjCNEVOS39xhLlDtD9hxVUhUuN6QKR7g"><b>Visit:</b> <span style="color:#15c">www.fabhr.in</span></a>
+                                                        </div>
+                                                      </div>
+                                                    </td>
+                                                    <td width="18" valign="top" align="right">
+                                                      <div style="display:inline-block">
+                                                        <div></div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border:0px;padding-top:0px;border-bottom:2px solid #3f51bd">
+                                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                          <tr>
+                                            <td width="560" valign="middle" height="70" bgcolor="#8c98e0" align="center">
+                                              <div>
+                                                <div>
+                                                  <div style="width:100%;text-align:center;color:#ffffff;font-size:13px">
+                                                    <h1>Dear <b>${firstName} ${lastName}</b>
+                                                    </h1>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div style="border:0px;padding-top:0px">
+                                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                      </table>
+                                    </div>
+                                    <div style="border:0px;padding:0;">
+                                      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                        <tbody>
+                                          <tr>
+                                            <td>
+                                              <table style="background:#f5f5f5;margin-bottom:12px;border-bottom:2px solid #3f51bd" valign="top" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                <tbody>
+                                                  <tr>
+                                                    <td colspan="3" height="16"></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td width="16"></td>
+                                                    <td>
+                                                      <table valign="top" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                        <tbody>
+                                                          <tr>
+                                                            <td height="13"></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td valign="top" align="left">
+                                                              <div>
+                                                                <div>
+                                                                  <p style="margin:10px 0;text-align:left;font-size:13px;font-weight:bold">Greeting from Computronics!</p>
+                                                                  <p style="margin:0;text-align:left;font-size:13px">We welcome you, Please join us at HR portal for completing your onboardine, formalities.</p>
+                                                                  <p style="margin:19px 0 0 0px;text-align:center;font-size:13px;color:#25338b"><a href="${link}">Complete Onboarding</a></p>
+                                                                </div>
+                                                              </div>
+                                                            </td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>
+                                                              <p style="margin:42px 0 5px 0;text-align:left;font-size:13px;color:#333333"><span style="border:0;padding:0;margin:0"> For any further queries, Please do let us know.</span> </p>
+                                                              <p style="margin:13px 0 0 0;text-align:left;font-size:13px"> <b>Regards, </b></p>
+                                                              <p style="margin:6px 0 0 0;text-align:left;font-size:13px"> <b>HR Team</b></p>
+                                                              <p style="margin:6px 0 0 0;text-align:left;font-size:13px"> <b>Company Name</b></p>
+                                                              <p style="margin:6px 0 0 0;text-align:left;font-size:13px"> <img src="https://ci5.googleusercontent.com/proxy/eUTAB8W8JUz8WCas4fB_ai4NSD1kjVbR4THtcZNYbT856m2NBE0gdZW9cksM3EcvzByJEvo=s0-d-e1-ft#http://i65.tinypic.com/34438g1.png" style="width:114px;height:auto" class="CToWUd"></p>
+                                                              <p></p>
+                                                            </td>
+                                                          </tr>
+                                                        </tbody>
+                                                      </table>
+                                                    </td>
+                                                    <td width="16"></td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td colspan="3" height="16"></td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <div style="border:0px;padding:3px 16px;background:#383a3b;margin-top:10px;margin-bottom:10px">
+                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                          <tbody>
+                                            <tr>
+                                              <td style="padding: 0px;">
+                                                <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                  <tbody>
+                                                    <tr>
+                                                      <td valign="middle" align="left">
+                                                        <p style="text-align:center;color:#fff;font-size:12px;margin:5px 0;line-height:18px">FabHR-An effortless team management system to streamline your organizational HR activities. A reliable, cloud 
+                                                      based software with seamless integration and cost-effective pricing.</p>
+                                                      </td>
+                                                    </tr>
+                                                  </tbody>
+                                                </table>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td width="20" valign="top">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>

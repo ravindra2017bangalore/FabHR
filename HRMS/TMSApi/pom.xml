@@ -1,0 +1,133 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.csipl.org</groupId>
+		<artifactId>HRMS</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+
+	<artifactId>TMSApi</artifactId>
+	<packaging>war</packaging>
+
+
+	<dependencies>
+	<!-- 	<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>HRMS-Domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ -->
+ <dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>HRMS-Domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		
+
+		<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>HRMS-Services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+ 	<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>TMS-Domain</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>HRMS-Common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>HRMS-CommonServices</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			
+		</dependency>
+			<dependency>
+			<groupId>com.csipl.org</groupId>
+			<artifactId>TMS-Services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	
+
+	
+
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>2.17.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Jackson JSON Processor <dependency> <groupId>com.fasterxml.jackson.core</groupId> 
+			<artifactId>jackson-databind</artifactId> <version>2.4.1</version> </dependency> -->
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-lgpl</artifactId>
+			<version>1.9.6</version>
+		</dependency>
+
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+						<configuration>
+							<mainClass>${spring.boot.mainclass}</mainClass>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<goals>
+					<goal>copy-resources</goal>
+				</goals>
+				<configuration>
+					<warSourceDirectory>../WebContent</warSourceDirectory>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<!-- <webappDirectory>D:/apache-tomcat-7.0.79-windows-x64/apache-tomcat-7.0.79/webapps/tsi</webappDirectory> -->
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+		<finalName>tmsApi</finalName>
+	</build>
+
+</project>

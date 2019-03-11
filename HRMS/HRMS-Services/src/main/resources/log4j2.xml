@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} %5p ${hostName} - [%15.15t] %-40.40c{1.} : %m%n%ex
+        </Property>
+    </Properties>
+    <Appenders>
+        <Console name="ConsoleAppender"   >
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+       		<File name="App-Appender" fileName="D:/sqmslogs/app_log.log"  >
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+		<File name="SpringBoot-Appender" fileName="C:/sqmslogs/springboot_log.log"    >
+			<PatternLayout>
+				<pattern>
+					[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</File>
+     </Appenders>
+ 	<Loggers>
+		<Logger name="org.springframework.web" level="info" additivity="false">
+			<AppenderRef ref="SpringBoot-Appender"/>
+ 
+		</Logger>
+		<Logger name="com.csipl.sqms" level="info"
+			additivity="false">
+			<AppenderRef ref="App-Appender" />
+			 
+		</Logger>
+		<Root>
+			
+		  <AppenderRef ref="App-Appender" />
+ 		</Root>
+	</Loggers>
+</Configuration>

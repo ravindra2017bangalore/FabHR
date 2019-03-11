@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <title>Sales Quotation Management System</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <base href="/sqms"> </base>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />     
+ 
+    
+  
+    <link href="assets/css/style.css" rel="stylesheet" th:href="@{/assets/css/style.css}" type="text/css" />
+  
+  <link href="assets/css/responsive.css" rel="stylesheet" th:href="@{/assets/css/responsive.css}" type="text/css"
+  />
+  
+  
+  <link href="assets/css/layout.css" rel="stylesheet" th:href="@{/assets/css/layout.css}" type="text/css" id="style_color"
+  />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css"  th:href="@{/assets/css/bootstrap.min.css}" type="text/css"/>
+<link rel="stylesheet" href="assets/css/font-awesome.min.css"  th:href="@{/assets/css/font-awesome.min.css}" type="text/css"/>
+  
+</head>
+
+<body class="page-header-fixed">
+
+  
+  
+  <app-root><div class="cssload-thecube">
+      <div class="cssload-cube cssload-c1"></div>
+      <div class="cssload-cube cssload-c2"></div>
+      <div class="cssload-cube cssload-c4"></div>
+      <div class="cssload-cube cssload-c3"></div>
+    </div></app-root>
+
+  <script type="text/javascript" th:src="@{/inline.bundle.js}"></script>
+  <script type="text/javascript" th:src="@{/polyfills.bundle.js}"></script>
+  <script type="text/javascript" th:src="@{/vendor.bundle.js}"></script>
+  <script type="text/javascript" th:src="@{/main.bundle.js}"></script>
+
+
+  <script th:src="@{/assets/scripts/jquery-1.10.2.min.js}" type="text/javascript"></script>
+   <script th:src="@{/assets/scripts/bootstrap.min.js}" type="text/javascript"></script>
+  
+  
+  <script th:src="@{/assets/scripts/custom.js}" type="text/javascript"></script>
+ 
+  <!-- END PAGE LEVEL SCRIPTS -->
+  <script>
+   
+   //floating labels
+    $(function () 
+    {
+      var onClass = "on";
+      var showClass = "show";
+    
+      $("input, select")
+        .bind("checkval", function () 
+        {
+          var label = $(this).prev("label");
+            
+          if (this.value !== "")
+            label.addClass(showClass);
+            
+          else
+            label.removeClass(showClass);
+        })
+        .on("keyup", function () 
+        {
+          $(this).trigger("checkval");
+        })
+        .on("focus", function () 
+        {
+          $(this).prev("label").addClass(onClass);
+        })
+        .on("blur", function () 
+        {
+            $(this).prev("label").removeClass(onClass);
+        })
+        .trigger("checkval");
+        
+      //gdfgd
+      $("select")
+        .on("change", function ()
+        {
+          var $this = $(this);
+          
+          if ($this.val() == "")
+            $this.addClass("watermark");
+          
+          else
+            $this.removeClass("watermark");
+            
+          $this.trigger("checkval");
+        })
+        .change();
+    });    
+	
+	 jQuery(document).ready(function () {
+      Layout.init(); 
+    });
+     
+  </script>
+  <!-- END JAVASCRIPTS -->
+</body>
+
+</html>
