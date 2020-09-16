@@ -148,7 +148,7 @@ public class EmpPersonalController {
 
 	
 	private WeekOffPatternDTO getWeekoffByRestTamplate(String patternId) {
-		logger.info("patternId Id----->" + patternId);
+		logger.info("patternId Id {} : " + patternId);
 		logger.info("getWeekoffByRestTamplate is calling : ");
 		String url = environment.getProperty("application.weekoffpatternTemp");
 		RestTemplate restTemplate = new RestTemplate();
